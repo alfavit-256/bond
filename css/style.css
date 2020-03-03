@@ -1,0 +1,465 @@
+/*=========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Raleway & Open Sans
+    ----------------------------------------
+    Colors:
+        Green:               #21c24c
+        Grey:                #212226
+        White Smoke:         #f4f4f4
+        White:               #fff
+        Black:               #000   
+============================================*/
+
+
+/*=========================================
+                Html, Body
+============================================*/
+html,
+body {
+	height: 100%;
+}
+
+body {
+	color: #212226;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Raleway", sans-serif;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+/*===========================================
+                  Buttons
+============================================*/
+.btn-general {
+	font-family: Sans-serif;
+	border-radius: 28px;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin: 0 6px;
+	padding: 12px 46px 12px 46px;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.btn-home {
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+	color: #fff;
+	background-color: #21c24c;
+	border: 1px solid #21c24c;
+}
+
+.btn-send {
+	color: #fff;
+	border: 1px solid #21c24c;
+	background-color: #21c24c;
+}
+
+.btn-send:hover,
+.btn-send:focus {
+	color: #fff;
+	background-color: #212226;
+	border: 1px solid #212226;
+}
+/*=========================================
+               Preloader 
+============================================*/
+#preloader {
+	background-color: #fff;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 9999;
+}
+
+#status {
+	background-image: url('../img/preloader/preloader.gif');
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -35px;
+	margin-left: -35px;
+	background-size: 70px;
+}
+
+/*===========================================
+                  Home
+============================================*/
+#home {
+	height: 100%;
+	background: url("../img/bg/bg.jpg") no-repeat fixed center;
+	background-size: cover;
+	margin-bottom: px
+}
+
+#home-content {
+	background: rgba(0, 0, 0, 0.7);
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+#home-content-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#home-heading h1 {
+	font-size: 55px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+}
+
+#home-heading h1 span {
+	color: #21c24c;
+	font-weight: 500;
+}
+
+#home-text p {
+	font-size: 20px;
+	color: #fff;
+	margin: 10px 160px 30px 160px;
+}
+
+#arrow-down {
+	font-size: 35px;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	bottom: 10%;
+	width: 32px;
+	height: 32px;
+	margin-left: -16px;
+	z-index: 2;
+}
+
+#arrow-down:focus,
+#arrow-down:hover {
+	color: #21c24c
+}
+
+/* =========================================
+                Content Boxes
+============================================ */
+
+.content-box-lg {
+	padding: 120px 0;
+}
+
+.content-box-md {
+	padding: 100px 0;
+}
+
+.content-box-sm {
+	padding: 90px 0;
+}
+
+/*===========================================
+          Vertical/Horizontal Headings
+============================================*/
+.vertical-heading h5 {
+	font-size: 25px;
+	transform: rotate(-90deg);
+	display: inline-block;
+	color: #21c24c;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	font-weight: 300;
+	text-transform: uppercase;
+	word-spacing: 9px;
+}
+
+.vertical-heading h2 {
+	margin: 0 0 0 70px;
+	text-align: left;
+	line-height: 35px;
+}
+
+
+
+.horizontal-heading h5 {
+	font-size: 25px;
+	color: #21c24c;
+	text-transform: uppercase;
+	word-spacing: 9px;
+	font-weight: 600;
+	
+}
+.horizontal-heading h2 {
+	font-size: 25x;
+	color: #fff;
+}
+
+
+/*===========================================
+                  About
+============================================*/
+/* About 01 */
+/* About 02 */
+#about {
+	margin-top: ;
+}
+
+#about-right {
+	margin-top: -50px;
+}
+
+#about-right .about-text {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+/* About Photo */
+#about-photo img {
+	width: 100%;
+}
+
+/*===========================================
+                Characteristics
+============================================*/
+#char {
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+.char-123 {
+	background-color: #fff;
+	padding: 60px 10px;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	-webkit-transition: all 400ms;
+	transition: all 400ms;
+}
+
+.char-123 i {
+	font-size: 30px;
+	margin: 0;
+}
+
+.char-123 h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.char-123 hr {
+	color: #21c24c;
+	width: 80px;
+	height: 3px;
+	background-color: #21c24c;
+	padding: 0;
+	border: none;
+}
+
+/* Hover State */
+.char-123:hover {
+	background-color: #21c24c;
+
+}
+
+.char-123:hover i,
+.char-123:hover h3,
+.char-123:hover p {
+	color: #fff
+}
+
+.char-123:hover hr {
+	background-color: #fff;
+}
+
+.char-123:hover i {
+	transform: translateY(-20px);
+}
+
+/* Smooth Trasition */
+.char-123 i,
+.char-123 h3,
+.char-123 hr,
+.char-123p {
+	transition: all 400ms linear;
+}
+
+/*===========================================
+                Langauges
+============================================*/
+#lang-head {
+	font-size: 25px;
+}
+#lang p {
+	font-size: 15px;
+	margin: 10px;
+}
+#langs-tabs ul li {
+	margin: 40px 20px;
+	font-size: 15px;
+}
+#langs-tabs ul li.r-tabs-state-active a {
+	color: #21c24c;
+	font-weight: 600;
+	border-bottom: 3px solid #21c24c;
+	padding-bottom: 5px;
+}
+#langs-tabs ul li a {
+	text-decoration: none;
+	color: #212226;	
+}
+
+.lang-123 {
+	background-color: rgba(21,22,26,0.0);
+	padding: 0;
+	
+}
+.lang-img img {
+	width: 100%;
+	height: auto;
+}
+.lang-123 .row {
+	background: #f4f4f4;
+}
+
+
+/*===========================================
+                Stats
+============================================*/
+#stats {
+	background: url("../img/stats/st.jpg") no-repeat fixed center;
+	background-size: cover;
+}
+#stats .content-box-md {
+    background: rgba(0, 0, 0, 0.8);
+}
+#st-list {
+	margin-top: 130px
+}
+.stats-box {
+	margin: 10px;
+	background: rgba(61, 68, 68, 0.8);
+	padding: 50px 10px;
+	color: #fff;
+	border-radius: 5px;
+	width: 140px;
+	-webkit-transition: all 400ms linear;
+	transition: all 400ms linear;
+}	
+.stats-box i {
+	font-size: 30px;
+	color: #21c24c;
+	-webkit-transition: all 400ms linear;
+	transition: all 400ms linear;
+}
+.stats-box .stats-p {
+	font-size: 20px;
+	margin-top: 20px;
+}
+.stats-box .stats-p2 {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.stats-box:hover {
+	background: #21c24c;
+	color: #fff;
+	border-radius: 10px;
+	
+}
+.stats-box:hover i {
+	transform: translateY(-20px);
+	color: #000;
+}
+
+/*===========================================
+                    Send
+============================================*/
+#send-right {
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+	padding: 20px;
+	margin: 
+}
+#send-left {
+	margin: 30px 0
+}
+#send #send-h {
+	font-size: 22px;
+	margin: 0 0 40px 0;
+}
+#send p {
+	font-size: 15px;
+}
+#send p i {
+	font-size: 20px;
+	margin: 15px 5px
+}
+#send p .fa-facebook {
+	width: 18px
+}
+form input {
+	margin: 0 10px 20px  0;
+}
+
+.col-md-6 textarea {
+	width: 100%;
+	height: 200px;
+}
+#btn-form {
+	margin: 20px 0px;
+}
+#send p .fa-facebook {
+	color: #369
+}
+#send p .fa-whatsapp {
+	color: green;
+}
+#send p .fa-telegram {
+	color: cornflowerblue
+}
+
+/*==========================================
+                Google Map
+============================================*/
+#map {
+    height: 600px;
+}
+
+/*==========================================
+                Footer
+============================================*/
+footer {
+	background-color: darkslategray;
+	font-size: 18px;
+	padding: 30px
+}
+footer strong {
+	color: #21c24c;
+}
+
+
+
